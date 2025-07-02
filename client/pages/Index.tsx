@@ -60,12 +60,12 @@ export default function Index() {
 
       {/* Video Section */}
       <section className="bg-accent py-16">
-        <div className="max-w-7xl mx-auto px-6 lg:px-20">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-[156px]">
           <div className="relative">
-            <div className="flex flex-col lg:flex-row gap-6">
+            <div className="lg:flex lg:gap-6">
               {/* Video Player */}
-              <div className="lg:w-1/2 relative">
-                <div className="relative bg-gray-900 rounded-3xl overflow-hidden aspect-video">
+              <div className="lg:w-1/2 relative mt-15">
+                <div className="relative bg-gray-900 rounded-[40px] overflow-hidden aspect-video max-h-[643px]">
                   <video
                     className="w-full h-full object-cover"
                     poster="https://static-assets.business.amazon.com/assets/global/polaris/hero/homepage_what_is_AB_hero.png"
@@ -81,30 +81,30 @@ export default function Index() {
 
                   {!isVideoPlaying && (
                     <div
-                      className="absolute inset-0 bg-gradient-to-t from-gray-900/75 via-transparent to-transparent cursor-pointer flex items-end"
+                      className="absolute inset-0 bg-gradient-to-t from-[#161D26]/100 via-[#161D26]/75 to-transparent cursor-pointer flex items-end"
                       onClick={handleVideoPlay}
                     >
                       <div className="p-10 w-full">
                         <div className="flex items-center gap-5 mb-4">
-                          <div className="w-15 h-15 bg-white rounded-full flex items-center justify-center">
+                          <div className="w-[60px] h-[60px] bg-white rounded-full flex items-center justify-center p-[18px]">
                             <svg
-                              className="w-6 h-6 text-gray-900 ml-1"
+                              className="w-6 h-6 text-[#161D26] ml-1"
                               fill="currentColor"
                               viewBox="0 0 24 24"
                             >
                               <path d="M8 5v14l11-7z" />
                             </svg>
                           </div>
-                          <h3 className="text-white text-3xl lg:text-4xl font-bold leading-tight">
+                          <h3 className="text-white text-2xl lg:text-[44px] font-bold leading-[40px] tracking-[0.4px]">
                             What is Amazon Business?
                           </h3>
-                          <span className="text-white text-xl ml-auto">
+                          <span className="text-white text-xl leading-[28px] ml-auto">
                             02:47
                           </span>
                         </div>
 
-                        <div className="bg-gray-900 rounded-b-3xl -mx-10 -mb-10 p-10 pt-0 flex items-center justify-between">
-                          <p className="text-white max-w-3xl leading-relaxed">
+                        <div className="bg-[#161D26] rounded-b-[40px] -mx-10 -mb-10 p-10 pt-0 flex flex-col lg:flex-row items-start lg:items-center gap-6">
+                          <p className="text-white flex-1 leading-relaxed">
                             Amazon Business helps millions of customers
                             worldwide reshape their business buying with cost
                             and time savings, greater productivity, and
@@ -112,7 +112,7 @@ export default function Index() {
                           </p>
                           <Button
                             variant="outline"
-                            className="border-gray-300 text-white hover:bg-white/10 ml-6 rounded-full px-6 py-3 text-base"
+                            className="border-[#BBBBBF] text-white hover:bg-white/10 rounded-full px-6 py-3 text-base flex-shrink-0"
                             asChild
                           >
                             <a href="https://business.amazon.com/en/blog/what-is-amazon-business">
