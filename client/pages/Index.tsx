@@ -12,22 +12,22 @@ export default function Index() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-accent">
-        <div className="max-w-7xl mx-auto px-6 lg:px-20 py-16">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-[156px] py-16">
           <div className="text-center">
-            <h1 className="text-6xl lg:text-8xl xl:text-9xl font-black leading-none tracking-wide mb-5">
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl xl:text-[120px] font-black leading-[0.9] tracking-[0.02em] mb-5">
               <span className="text-primary">Smart</span>
               <span className="text-foreground"> business buying</span>
             </h1>
 
-            <p className="text-2xl lg:text-4xl font-normal text-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl lg:text-2xl xl:text-[44px] font-normal text-foreground mb-10 max-w-5xl mx-auto leading-[1.2] tracking-[0.01em]">
               Streamline your purchasing with innovative tools and unmatched
               selection.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mt-10">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-white font-bold text-xl px-8 py-6 rounded-full min-w-64"
+                className="bg-primary hover:bg-primary/90 text-white font-bold text-xl px-8 py-6 rounded-full min-w-72"
                 asChild
               >
                 <a
@@ -43,7 +43,7 @@ export default function Index() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-secondary text-foreground font-normal text-xl px-8 py-6 rounded-full min-w-64 hover:bg-secondary/10"
+                className="border-secondary text-foreground font-normal text-xl px-8 py-6 rounded-full min-w-72 hover:bg-secondary/10"
                 asChild
               >
                 <a
