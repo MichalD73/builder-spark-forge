@@ -16,6 +16,12 @@ export default {
       fontFamily: {
         sans: ["Inter", "Arial", "sans-serif"],
       },
+      fontSize: {
+        "7xl": "4.5rem",
+        "8xl": "6rem",
+        "9xl": "8rem",
+        "10xl": "10rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
