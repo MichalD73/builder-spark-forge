@@ -131,16 +131,16 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-accent py-16">
-        <div className="max-w-7xl mx-auto px-6 lg:px-20">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <section className="bg-accent pb-16">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-[156px]">
+          <div className="flex flex-col lg:flex-row gap-6">
             {/* Feature Card 1 */}
-            <div className="bg-white border border-secondary rounded-xl p-8 flex flex-col justify-between min-h-64">
-              <div>
-                <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4 leading-tight">
+            <div className="bg-white border border-secondary/30 rounded-[20px] p-8 flex-1 flex flex-col justify-between min-h-[300px] max-w-[774px] min-w-[480px]">
+              <div className="max-w-[456px]">
+                <h3 className="text-[32px] font-bold text-foreground mb-3 leading-[28px] tracking-[0.28px]">
                   Delivering for you
                 </h3>
-                <p className="text-foreground mb-8 leading-relaxed">
+                <p className="text-foreground mb-10 leading-relaxed">
                   Set customized delivery preferences to get the supplies you
                   need, when you need them.
                 </p>
@@ -173,12 +173,12 @@ export default function Index() {
             </div>
 
             {/* Feature Card 2 */}
-            <div className="bg-white border border-secondary rounded-xl p-8 flex flex-col justify-between min-h-64">
-              <div>
-                <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4 leading-tight">
+            <div className="bg-white border border-secondary/30 rounded-[20px] p-8 flex-1 flex flex-col justify-between min-h-[300px] max-w-[774px] min-w-[480px]">
+              <div className="max-w-[456px]">
+                <h3 className="text-[32px] font-bold text-foreground mb-3 leading-[28px] tracking-[0.28px]">
                   Save up to $100
                 </h3>
-                <p className="text-foreground mb-8 leading-relaxed">
+                <p className="text-foreground mb-10 leading-relaxed">
                   Create your free Amazon Business account and get 40% off up to
                   $100 on your first purchase. T&Cs apply.
                 </p>
@@ -211,12 +211,12 @@ export default function Index() {
             </div>
 
             {/* Feature Card 3 */}
-            <div className="bg-white border border-secondary rounded-xl p-8 flex flex-col justify-between min-h-64">
-              <div>
-                <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4 leading-tight">
+            <div className="bg-white border border-secondary/30 rounded-[20px] p-8 flex-1 flex flex-col justify-between min-h-[300px] max-w-[774px] min-w-[480px]">
+              <div className="max-w-[456px]">
+                <h3 className="text-[32px] font-bold text-foreground mb-3 leading-[28px] tracking-[0.28px]">
                   Enhance purchasing
                 </h3>
-                <p className="text-foreground mb-8 leading-relaxed">
+                <p className="text-foreground mb-10 leading-relaxed">
                   Learn about the innovative tools and features that make
                   purchasing a seamless experience.
                 </p>
